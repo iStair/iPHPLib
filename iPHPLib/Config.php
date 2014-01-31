@@ -22,7 +22,7 @@ class Config
 	*/
 	
 	function __construct(){
-		$this -> log_save_dir = $_SERVER['DOCUMENT_ROOT']; // Setup the log-save-dir
+		$this -> log_save_dir = __DIR__."/Log"; // create the log in the "Log" folder
 	}
 
 }
