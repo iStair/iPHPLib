@@ -15,7 +15,7 @@ class Config
 	* all public vars
 	*/
 	
-	public $log_save_dir; // Save dir for log
+	public $log_save_dir; // save dir for log
 
 	/**
 	* Initializing
