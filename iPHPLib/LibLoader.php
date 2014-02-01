@@ -42,7 +42,7 @@ class iPHPLib
 	
 	function __construct(){
 		$this -> log = new Log; // Loading Log
-		$this -> random new Random;
+		$this -> random = new Random;
 	}
 
 }
