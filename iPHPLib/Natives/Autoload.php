@@ -14,7 +14,8 @@
 
 $GLOBALS['load_class'] = array(
 	'Config' => '../Config.php', // Config
-	'Log' => 'Log.php' // Log
+	'Log' => 'Log.php', // Log
+	'Random' => 'Random.php' // Random
 );
  
 /**
