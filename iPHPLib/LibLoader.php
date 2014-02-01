@@ -34,6 +34,7 @@ class iPHPLib
 	*/
 	
 	public $log;
+	public $random;
 	
 	/**
 	* Initializing
@@ -41,6 +42,7 @@ class iPHPLib
 	
 	function __construct(){
 		$this -> log = new Log; // Loading Log
+		$this -> random new Random;
 	}
 
 }
