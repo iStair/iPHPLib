@@ -34,14 +34,18 @@ class Log
 	
 	/**
 	* Delete a Log
+	* @params $f filename
 	* @return true on success
 	* @return false on cancelled
 	*/
 	
 	public function del($f){
-		if(file_exists($f)){
-			unlink($f);
-			return true;
+		if(file_exists($u->log_save_dir."/".$f)){
+			if(unlink($u->log_save_dir."/".$f)){
+				return true;
+			}else{
+				return false;
+			}
 		}else{
 			return false;
 		}
